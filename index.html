@@ -1,43 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Christopher Francis - Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christopher Francis</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css">
+  <link rel="stylesheet" href="style.css" type="text/css" >
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+ <!-- Header section with navigation and name -->
+ <header>
+  <h1>Christopher</h1>
+  <nav>
+    <!-- Unordered list of navigation items -->
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <main>
-        <section id="home">
-            <h1>Welcome to Christopher Francis's Website</h1>
-            <p>Feel free to explore!</p>
-        </section>
+<!-- Main section -->
+ <main>
+   <article>
+     <div class="wrapper">
+       <!-- Image profile-->
+       <img src="./images/profile.jpg" 
+           alt="myprofile" class="center">
+     <h2>Hello, I'm Christopher Francis</h2>
+     <p>I work as a Web Developer based in San Antonio, Texas.</p>
+     <p>I'm enthusiastic about coding and deeply interested in</p>
+      <ul>
+        <li>Collaborating with proficient developers</li>
+        <li>Refining my skills and guiding fellow developers</li>
+        <li>Crafting refined code</li>
+        <li>Staying updated with the latest technologies</li>
+      </ul>
+     </div>
+   </article>
+<hr>
+<!--About me section -->
+   <article id="about">
+     <div class="wrapper">
+     <h2>About Christopher</h2>
+     <p>I'm an avid web developer who takes pleasure in crafting interactive, user-friendly websites.</p>
+        <p>I thrive in team environments and relish the opportunity to contribute to collaborative projects. I'm always eager to acquire new proficiencies and technologies.</p>
+        <p>My journey in web development commenced during my college years, where I embarked on my first courses in HTML and CSS. </p>
+        <p>Since then, I've been on a continuous journey of learning and honing my web development skills, </p> 
+        <p>in addition to exploring areas such as UX design and project management.</p>
+        <p>When I'm not engrossed in web development, you can find me hiking or strumming on my guitar.</p>
+     </div>
+   </article>
+<hr>
+<!-- Contact section with links to LinkedIn, GitHub, and email -->
+   <article id="contact">
+     <div class="wrapper">
+       <h2>Contact Christopher</h2>
+       <h3>I'd be delighted to connect with you! Please don't hesitate to get in touch or connect with me through:</h3>
+       <ol>
+         <li><a href="https://www.linkedin.com/in/chrisf77" target="_blank">LinkedIn</a></li>
+         <li><a href="https://github.com/christopher442/" target="_blank">Github</a></li>
+         <li><a href="mailto:christopherf442@hotmail.com">Email</a></li>
+       </ol>
+     </div>
+   </article>
+ </main>
+ <!--End of main-->
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Insert information about Christopher Francis here...</p>
-        </section>
+   <!-- Footer section with copyright information -->
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: christof799@gmail.com</p>
-            <p>Github: <a href="https://github.com/christf71">christf71</a></p>
-            <p>Phone: 123-456-7890</p>
-        </section>
-    </main>
-
-    <script src="index.js"></script>
+ <footer>
+   <p>&copy; Christopher Francis</p>
+ </footer>
+ <!--End of footer-->
 </body>
 
 </html>
