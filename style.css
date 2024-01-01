@@ -142,3 +142,11 @@ footer {
 footer p {
     margin: 0;
 }
+
+/*** Styling avatar ***/
+main .avatar {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
