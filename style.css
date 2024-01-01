@@ -150,3 +150,6 @@ main .avatar {
     display: block;
     margin: 20px auto;
 }
+main .avatar:hover {
+    border: 3px solid #F39C12;
+}
